@@ -2,7 +2,7 @@
 console.group("opgave 1");
 const person ={
     name:"kari",
-    age:"43",
+    age:43,
     job:"studerende"
 };
 console.groupEnd(person);
@@ -17,6 +17,8 @@ console.groupEnd();
 /* opgave 3 */
 console.group("opgave 3");
 
+delete person.age;
 
+console.log(person)
 
 console.groupEnd();
