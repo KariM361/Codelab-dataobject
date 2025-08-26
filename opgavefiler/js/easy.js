@@ -1,7 +1,11 @@
 /* opgave 1 */
 console.group("opgave 1");
-
-console.groupEnd();
+const person ={
+    name:"kari",
+    age:"43",
+    job:"studerende"
+};
+console.groupEnd(person);
 
 /* opgave 2 */
 console.group("opgave 2");
