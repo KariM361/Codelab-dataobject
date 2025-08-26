@@ -9,8 +9,8 @@ console.groupEnd(person);
 
 /* opgave 2 */
 console.group("opgave 2");
-
-
+ console.log(person.name);"Kari"
+                console.log(person.job);"Kari er studerende"          
 
 console.groupEnd();
 
