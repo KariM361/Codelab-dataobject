@@ -14,6 +14,8 @@ console.groupEnd();
 console.group("opgave 2");
 
 
+data.items.splice("-2","-1")
+console.log(data)
 
 console.groupEnd();
 
